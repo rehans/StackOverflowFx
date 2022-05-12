@@ -1,0 +1,132 @@
+{
+	"vstgui-ui-description": {
+		"version": "1",
+		"bitmaps": {},
+		"fonts": {},
+		"colors": {},
+		"gradients": {},
+		"control-tags": {
+			"view_tab": "-2"
+		},
+		"custom": {
+			"FocusDrawing": {},
+			"VST3Editor": {
+				"Path": "C:\\Users\\atlas-dev\\Documents\\generated\\StackOverflowFx\\resource\\stackoverfloweditor.uidesc"
+			},
+			"UIGridController": {
+				"Grids": "1x 1,5x 5,10x 10,12x 12,15x 15"
+			},
+			"UITemplateController": {
+				"SelectedTemplate": "view"
+			},
+			"UIEditController": {
+				"EditViewScale": "1",
+				"EditorSize": "0, 0, 1403, 682",
+				"SplitViewSize_0_0": "0.8018292682926829728629058990918565541506",
+				"SplitViewSize_0_1": "0.1676829268292683028374057130349683575332",
+				"SplitViewSize_1_0": "0.4839939024390244037832076173799578100443",
+				"SplitViewSize_1_1": "0.5083841463414634498363398051878903061152",
+				"SplitViewSize_2_0": "0.7505345687811831867364276149601209908724",
+				"SplitViewSize_2_1": "0.2459016393442622905318728498968994244933",
+				"TabSwitchValue": "1",
+				"Version": "1"
+			},
+			"UIAttributesController": {},
+			"UIViewCreatorDataSource": {
+				"SelectedRow": "20"
+			},
+			"UITagsDataSource": {
+				"SelectedRow": "0"
+			}
+		},
+		"templates": {
+			"view": {
+				"attributes": {
+					"background-color": "~ GreyCColor",
+					"background-color-draw-style": "filled and stroked",
+					"class": "CViewContainer",
+					"mouse-enabled": "true",
+					"opacity": "1",
+					"origin": "0, 0",
+					"size": "300, 300",
+					"transparent": "false",
+					"wants-focus": "false"
+				},
+				"children": {
+					"UIViewSwitchContainer": {
+						"attributes": {
+							"animation-style": "fade",
+							"animation-time": "120",
+							"animation-timing-function": "linear",
+							"background-color": "~ BlackCColor",
+							"background-color-draw-style": "filled and stroked",
+							"class": "UIViewSwitchContainer",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "70, 40",
+							"size": "100, 100",
+							"template-names": "view_1,view_2",
+							"transparent": "false",
+							"wants-focus": "false"
+						}
+					},
+					"CSegmentButton": {
+						"attributes": {
+							"class": "CSegmentButton",
+							"control-tag": "view_tab",
+							"default-value": "0.5",
+							"font": "~ NormalFont",
+							"frame-color": "~ BlackCColor",
+							"frame-width": "1",
+							"icon-text-margin": "0",
+							"max-value": "1",
+							"min-value": "0",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "30, 230",
+							"round-radius": "5",
+							"segment-names": "view_1,view_2",
+							"selection-mode": "Single",
+							"size": "200, 20",
+							"style": "horizontal",
+							"text-alignment": "center",
+							"text-color": "~ BlackCColor",
+							"text-color-highlighted": "~ WhiteCColor",
+							"transparent": "false",
+							"wants-focus": "true",
+							"wheel-inc-value": "0.1"
+						}
+					}
+				}
+			},
+			"view 1": {
+				"attributes": {
+					"background-color": "~ BlueCColor",
+					"background-color-draw-style": "filled and stroked",
+					"class": "CViewContainer",
+					"custom-view-name": "view_1",
+					"mouse-enabled": "true",
+					"opacity": "1",
+					"origin": "0, 0",
+					"size": "300, 300",
+					"transparent": "false",
+					"wants-focus": "false"
+				}
+			},
+			"view 2": {
+				"attributes": {
+					"background-color": "~ RedCColor",
+					"background-color-draw-style": "filled and stroked",
+					"class": "CViewContainer",
+					"custom-view-name": "view_2",
+					"mouse-enabled": "true",
+					"opacity": "1",
+					"origin": "0, 0",
+					"size": "300, 300",
+					"transparent": "false",
+					"wants-focus": "false"
+				}
+			}
+		}
+	}
+}
